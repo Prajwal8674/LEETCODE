@@ -4,6 +4,7 @@ public class Palindrome {
 
     public static boolean isPalindrome(int num){
 
+
         int temp=num;
         int reverse=0;
         int rem=0;
