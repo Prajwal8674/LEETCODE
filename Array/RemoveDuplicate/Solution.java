@@ -1,9 +1,8 @@
 package Array.RemoveDuplicate;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class ReamoveDuplicateElements {
+public class Solution {
 
     public static int[] uniqueElements(int[] arr, int count){
 
