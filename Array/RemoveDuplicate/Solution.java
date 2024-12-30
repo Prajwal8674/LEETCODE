@@ -2,6 +2,7 @@ package Array.RemoveDuplicate;
 
 import java.util.Arrays;
 
+
 public class Solution {
 
     public static int[] uniqueElements(int[] arr, int count){
@@ -17,7 +18,6 @@ public class Solution {
         }
         return uniqueArray;
     }
-
     public static void countUnique(int[] arr){
 
         int count = 0 ;
@@ -30,7 +30,6 @@ public class Solution {
                     arr[j]=-1;
                 }
             }
-
             if(arr[i]>=0){
                 count++;
             }
@@ -38,7 +37,6 @@ public class Solution {
                 count2++;
             }
         }
-
         System.out.println(Arrays.toString(uniqueElements(arr,count)));
     }
     public static void main(String[] args) {
