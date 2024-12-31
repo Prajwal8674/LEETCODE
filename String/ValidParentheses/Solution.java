@@ -1,4 +1,4 @@
-package Array.ValidParentheses;
+package String.ValidParentheses;
 
 import java.util.Stack;
 
@@ -25,7 +25,6 @@ public class Solution {
         }
         return chars.isEmpty();
     }
-
     public static void main(String[] args) {
 
         String str = "()";
