@@ -40,7 +40,7 @@ public class Solution {
     }
     public static void main(String[] args) {
 
-        int[] arr = {1,1,2};
+        int[] arr = {1,1,2,3,3};
 
         countUnique(arr);
 
