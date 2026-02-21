@@ -1,4 +1,4 @@
-    package Array.RemoveDuplicates;
+package Array.RemoveDuplicates;
 
     public class Solution {
         public static int removeDuplicate(int[] nums) {
