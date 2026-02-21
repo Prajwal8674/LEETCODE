@@ -7,6 +7,7 @@ public class Solution {
             int left = 0;
             int maxLength = 0;
 
+
             HashSet<Character> charSet = new HashSet<>();
 
             for (int right = 0; right < s.length(); right++) {
