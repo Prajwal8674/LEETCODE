@@ -1,4 +1,4 @@
-package MoveZeroes;
+package Basics.MoveZeroes;
 import java.util.Arrays;
 
 public class Solution {
