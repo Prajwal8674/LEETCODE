@@ -1,5 +1,6 @@
 package Basics.powerOfThree;
 
+
 //O(1)
 //class Solution {
 //    public boolean isPowerOfThree(int n) {
