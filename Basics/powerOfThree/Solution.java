@@ -8,6 +8,7 @@ package Basics.powerOfThree;
 //}
 
 
+
 class Solution {
     public static boolean isPowerOfThree(int n) {
 
