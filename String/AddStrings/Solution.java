@@ -18,10 +18,9 @@ public class Solution {
         }
         return sb.reverse().toString();
     }
-
     public static void main(String[] args) {
-        String num1="4567874332213466789909098876532";
-        String num2="788765432213456889098877647";
+        String num1="456787433229909098876532";
+        String num2="7887653456889098877647";
         System.out.println(addStrings(num1,num2));
     }
 }
