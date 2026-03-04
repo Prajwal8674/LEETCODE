@@ -5,6 +5,7 @@ public class Solution {
         int i= num1.length()-1;
         int j = num2.length()-1;
         int carry =0;
+
         StringBuilder sb = new StringBuilder();
         while(i>=0||j>=0||carry!=0)
         {
