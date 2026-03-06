@@ -21,6 +21,7 @@ public class Solution {
     }
     public static void main(String[] args) {
 
+
         int[] arr = {2,1};
         int a = thirdMax(arr);
         System.out.println(a);
