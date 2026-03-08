@@ -9,7 +9,7 @@ class Solution {
             "jkl", "mno", "pqrs", "tuv", "wxyz"
     };
 
-    public  static List<String> letterCombinations(String digits) {
+    public static List<String> letterCombinations(String digits) {
 
         List<String> result = new ArrayList<>();
 
@@ -42,6 +42,7 @@ class Solution {
 
     public static void main(String[] args) {
         String str = "23";
-        letterCombinations(str);
+        List<String> ans = letterCombinations(str);
+        System.out.println(ans);
     }
 }
