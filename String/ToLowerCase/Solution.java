@@ -13,10 +13,8 @@ public class Solution {
             if(ch >= 'A' && ch <= 'Z'){
                 ch = (char)(ch | 32);
             }
-
             ans.append(ch);
         }
-
         return ans.toString();
     }
     public static void main(String[] args) {
