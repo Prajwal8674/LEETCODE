@@ -9,7 +9,6 @@ public class Solution {
         int left = 0;
         int right = arr.length - 1;
 
-        
         while (left < right) {
             while (left < right && arr[left] % 2 != 0) {
                 left++;
