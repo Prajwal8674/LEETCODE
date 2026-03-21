@@ -2,9 +2,11 @@ package String.RotateString;
 
 public class Solution {
 
+
     public static  boolean rotateString(String str, String goal) {
 
         String s1 = str+str;
+
 
         if(str.length()!=goal.length()){
             return false;
@@ -14,7 +16,6 @@ public class Solution {
         }
         return false;
     }
-
     public static void main(String[] args) {
         String str = "abcde";
         String goal = "abced";
