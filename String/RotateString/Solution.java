@@ -6,7 +6,6 @@ public class Solution {
 
         String s1 = str+str;
 
-
         if(str.length()!=goal.length()){
             return false;
         }
