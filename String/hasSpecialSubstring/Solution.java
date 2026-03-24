@@ -6,7 +6,7 @@ class Solution {
         for(int i=0;i<=s.length()-k;i++)
         {
             int count = 0;
-x
+
             char ch = s.charAt(i);
             for(int j=i;j<i+k;j++)
             {
