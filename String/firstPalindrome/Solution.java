@@ -12,7 +12,6 @@ public class Solution {
         }
         return true;
     }
-
     public static String firstPalindrome(String[] words) {
 
         for(String w : words){
