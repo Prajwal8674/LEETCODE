@@ -21,7 +21,6 @@ public class Solution {
         }
         return "";
     }
-
     public static void main(String[] args) {
 
         String[] words = {"abc","car","ada","racecar","cool"};
